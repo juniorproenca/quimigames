@@ -1,0 +1,37 @@
+/* estilos gerais da página */
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  /*padding: 0 2em;*/
+  background-color: lightblue;
+  color: black;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Comic Sans", cursive;
+  font-weight: normal;
+  color: black;
+}
+
+h1::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(to right, red, transparent);
+  height: 2px;
+}
+
+h2 {
+  clear: both;
+  color: black;
+  font-family: "Comic Sans", cursive;
+  background-image: linear-gradient(to right, red 1%, rgba(255,255,255,.5) 1%, transparent);
+  padding: 0.15em 0.15em 0.15em 1em;
+}
+
