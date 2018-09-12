@@ -1,0 +1,78 @@
+html , body {
+  min-altura : 100 % ;
+}
+
+body {
+  margem : 0  auto ;
+  largura máxima : 600 px ;
+  / * preenchimento: 0 2em; * /
+  background-color : lightblue ;
+  cor : preto ;
+  font-family : sem serifa ;
+}
+
+h1 {
+  margem superior : 0 ;
+  font-family : " Comic Sans " , cursivo;
+  font-weight : normal ;
+  cor : preto ;
+  font-size: 30px;
+
+}
+
+h1 :: after {
+  conteúdo : "  " ;
+  display : bloco ;
+  largura : 100 % ;
+  background-image : linear-gradient ( para  direita , vermelho , transparente );
+  altura : 2 px ;
+}
+
+h2 {
+  claro : ambos ;
+  cor : preto ;
+  font-family : " Comic Sans " , cursivo;
+  background-image:  linear-gradient (  para a  direita , vermelho  1 % , rgba ( 255 , 255 , 255 , .5 ) 1 % , transparente );
+  preenchimento : 0,15 em  0,15 em  0,15 em  1 em ;
+}
+
+header {
+
+  background-color: lightblue;
+  box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+  padding-top: 1em;
+ font-size: 35px;
+  padding-left: 1em;
+  text-align: center;
+}
+#table{
+font-size: 30px;
+padding: 1px;
+
+border: 1px;
+text-align: center;
+height: 1px;
+width: 1300px;
+}
+#img {
+  float: left;
+    width: 150px;
+    height: 150px;
+
+
+    background-repeat: no-repeat;
+}
+#flutli {
+  float: right;
+  border-left: 2px solid black;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  font-size: 25px;
+  padding: 5px;
+  
+
+}
+#bordaprincipais {
+  border-bottom: 2px solid black;
+
+}
